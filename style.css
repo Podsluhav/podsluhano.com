@@ -1,0 +1,236 @@
+
+
+[href="https://www.youtube.com/?hl=uk&gl=UA"]{
+  color: orange;
+}
+
+[border="3"] {
+  color: green;
+}
+
+.table-blue {
+  color: blue;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+.tabel-bold {
+  font-weight: bold;
+}
+
+#ideveloper {
+  font-weight: bold;
+}
+
+.font-size-md {
+   font-size: 20px;
+}
+
+.font-size-md.color-red {
+  color: red;
+}
+
+.font-size-md.color-gray {
+  color: gray;
+}
+
+.button-s1 {
+  font-weight: bold;
+  font-size: 15px;
+  color: blue;
+  font-style: italic;
+  font-color: green;
+  border-radius: 20px;
+}
+
+.serif {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.cursiv {
+  font-family: Florence, cursive;
+}
+
+p.small {
+  font-size: small;
+}
+
+p.large {
+  font-size: large;
+}
+
+p.xlarge {
+  font-size: x-large;
+}
+
+.h1 {
+  font-size: 50px;
+}
+
+p.italic {
+  font-style: italic;
+}
+
+p.oblique {
+  font-style: oblique;
+}
+
+p.thicker {
+  font-weight: 900;
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
+
+.rgb-color {
+  color: rgb(255, 0, 0);
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.bottom {
+  text-align: bottom;
+}
+
+.margin-left {
+  margin-left: 50px;
+}
+
+.margin-right {
+  margin-right: 50px;
+}
+
+#navbar a {
+  background-color: #949494;
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  border-left: 5px solid #33ADFF;
+  display: block;
+}
+#navbar li {
+  border-left: 10px solid #666;
+  border-bottom: 1px solid #666;
+}
+
+#navbar {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 100px;
+}
+
+.button-s2 {
+  background-color: #00B7D4;
+  color: #000;
+  padding: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  border-left: 5px solid #F04253;
+  display: block;
+}
+
+.text-s1 {
+  font-family: Bradley Hand, cursive;
+  font-stretch: ultra-condensed;
+  border-radius: 10px;
+}
+
+.color-gr {
+  color: #006DF5;
+}
+
+ body { margin: 0; }
+ #sidebar, #content { position: absolute; }
+ #sidebar, #content { overflow: auto; padding: 20px; } /* Левый бордюр */
+ #header {
+  height: 100px; /* Высота слоя */
+  background: #31E6CE; border-bottom: 5px solid #BA0200;
+ }
+ #header h1 { padding: 30px; margin: 0; }
+ #sidebar {
+  width: 150px; background: #6CE6B9; border-right: 3px solid #BA0200;
+  top: 105px; /* Расстояние от верхнего края */
+  bottom: 0; /* Расстояние снизу  */
+ }
+ #sitebar {
+  right: auto;
+  width: 150px; background: #; border-left: 3px solid #BA0200;
+  top: 105px; /* Расстояние от верхнего края */
+  bottom: 0; /* Расстояние снизу  */
+ }
+ #content {
+  top: 82px; /* Расстояние от верхнего края */
+  left: 170px; /* Расстояние от левого края */
+  bottom: 0; right: 0;
+
+  .hide, .hide + label ~ div {
+display: none;
+}
+
+/* вид текста label */
+.hide + label,
+.hide:checked + label {
+padding: 0;
+cursor: pointer;
+}
+
+/* вид текста label активном переключателе */
+.hide:checked + label {
+color: red;
+border-bottom: 0;
+display: none;
+}
+/* когда чекбокс активен показываем блоки с содержанием */
+.hide:checked + label + div {
+display: block;
+}
+
+/* demo контейнер */
+.demo {
+margin: 5% 10%;
+line-height: 25px;
+}
+
+.hide + label:before {
+content: '';
+display: block;
+position: absolute;
+bottom: 0;
+right: 0;
+left: 0;
+height: 4em;
+background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #fff 100%);
+background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #fff 100%);
+background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #fff 100%);
+background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #fff 100%);
+background: linear-gradient(top, rgba(255, 255, 255, 0) 0%, #fff 100%);
+}
+
+.ul {
+  list-style-image: url("logo.jpg");
+  list-style-position: inside;
+}
+
+.a:link {
+  text-decoration: none; /* уберает нижнюю линию под силкой */
+
+}
+
+.shadow1 {
+    background: #fc0; /* Цвет фона */
+    box-shadow: 0 0 15px rgba(0,0,0,1); /* Параметры тени */
+    padding: 10px;
+  }
